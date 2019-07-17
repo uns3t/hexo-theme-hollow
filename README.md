@@ -1,12 +1,13 @@
 # Hexo-theme-hollow
 
-一款极致简洁的博客主题 😉 可访问[我的博客](http://www.chen9.info/fragment/)查看实际效果
+fork之后稍微改了一下配色，预览(https://home.uns3t.cn/)，变得非主流了起来...
+删除了没用的images文件夹
 
 ## 安装
 
 在你的 Hexo 博客仓库下 clone 主题
 
-	git clone https://github.com/zchen9/hexo-theme-hollow.git themes/hollow
+	git clone https://github.com/uns3t/hexo-theme-hollow.git themes/hollow
 
 在博客下的 _config.yml 文件修改主题为 hollow
 	
@@ -63,21 +64,8 @@ date: <文章日期> [YYYY-MM-DD]
 
 ## CHANGELOG
 
-20190526 @zchen9
-- 主页开放小相机
-- 微调阅读样式
-- 优化搜索功能
 
-20190519 @fakeYanss [pull/36](https://github.com/zchen9/hexo-theme-hollow/pull/36)
-- 增加service worker
-- 本地搜索
-- 文章图片放大查看
 
-## 其他
-
-- 此主题不适用写技术博客贴代码
-- 作者很懒，更新频率看心情 ╮(╯_╰)╭
-- 欢迎贡献你的代码 🙋 [issue](https://github.com/zchen9/hexo-theme-hollow/issues)
 
 ## LICENSE
 

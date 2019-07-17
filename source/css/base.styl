@@ -5,7 +5,8 @@ body,
 html
   width 100%
   font-size 18px
-  color gray-dark
+  color #ff3f34
+  background: #1e272e
   @extend .serif
 
 p
@@ -26,11 +27,11 @@ h4, h5, h6
   margin 20px 0
 
 a
-  color red
+  color blue
   &:hover, &:focus
-    color gray-dark
+    color #ff3f34
   &:visited, &:link
-    color red
+    color blue
 a img
   &:hover, &:focus
     cursor zoom-in
@@ -45,10 +46,10 @@ a.nav-back
   position absolute
   top 15px
   left 15px
-  color white-faded
+  color #ff3f34
   z-index 99
   &:hover, &:focus
-    color red
+    color blue
 
 nav
   position absolute
@@ -73,16 +74,16 @@ nav
   margin-bottom 50px
   .site-heading, .post-heading, .page-heading
     padding 100px 0 20px
-    color gray-dark
+    color #00d8d6
     &.archives
-      color white-faded
+      color #ff3f34
       margin-top 60px
   .site-heading, .page-heading
     text-align center
     h1
       margin-top 0
       font-size 2em
-      color red
+      color blue
     .subheading
       font-size 24px
       line-height 1.1
@@ -135,11 +136,11 @@ nav
   > a
     width 100%
     height 100%
-    color gray-dark
+    color #ff3f34
     &:hover, &:focus
       text-decoration none
       > .post-title
-        color red
+        color blue
     > .post-title
       float left
       width 32%
@@ -180,7 +181,7 @@ nav
   margin 10px 0
   a
     text-transform uppercase
-    color red
+    color blue
     &:hover, &:visited, &:active
       text-decoration none
 
@@ -192,7 +193,7 @@ nav
 
 footer
   padding 50px 0 65px
-  color white-faded
+  color #00d8d6
   text-align center
 
 .floating-label-form-group
@@ -241,7 +242,7 @@ footer
     color brand-primary
 
 form .row:first-child .floating-label-form-group
-  border-top 1px solid gray-light
+  border-top 1px solid #ff3f34
 
 .btn
   @extend .serif
@@ -277,16 +278,16 @@ form .row:first-child .floating-label-form-group
       font-weight 800
       letter-spacing 1px
       padding 15px 25px
-      color white-faded
+      color #ff3f34
       border none
       border-radius none
     > a:hover, > a:focus
       text-decoration none
-      color red
+      color blue
       background-color transparent
   .disabled
     > a, > a:hover, > a:focus, > span
-      color gray
+      color #00d8d6
       cursor not-allowed
 
 ::-moz-selection
