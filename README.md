@@ -1,6 +1,6 @@
 # Hexo-theme-hollow
 
-fork之后稍微改了一下配色，预览(https://home.uns3t.cn/)，变得非主流了起来...
+fork之后稍微改了一下配色，预览 https://home.uns3t.cn/  变得非主流了起来...
 删除了没用的images文件夹
 
 ## 安装
